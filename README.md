@@ -19,3 +19,9 @@
 - Una vez inicializado el archivo, podemos ejecutar `jupyter notebook password` para establecer la contraseña.
 - Finalmente, para levantar Jupyter Lab ejecutemos `jupyter lab --no-browser --port=8889 --ip=0.0.0.0`.
 - Listo! ahora solo basta entrar al puerto 8889 con la IP de nuestra instancia para acceder al entorno de Jupyter Lab.
+
+## Explorando una competencia en Kaggle
+
+- Kaggle es una de las plataformas de competencias de Data Science más grandes, con una gran variedad de competencias incluyendo data tanto estructurada como no estructurada y una comunidad bastante activa. Kaggle es un gran espacio para practicar y aprender sobre análisis de datos y modelamiento predictivo.
+- La competencia recomendada para empezar es [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic). Trabajaremos sobre este dataset para tener una mayor comprensión sobre parte de la secuencia de tareas realizadas en Data Science.
+- El dataset puede ser descargado con mayor comodidad en nuestra instancia a través del [API oficial de Kaggle](https://github.com/Kaggle/kaggle-api).
