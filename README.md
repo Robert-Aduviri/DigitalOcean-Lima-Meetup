@@ -24,4 +24,6 @@
 
 - Kaggle es una de las plataformas de competencias de Data Science más grandes, con una gran variedad de competencias incluyendo data tanto estructurada como no estructurada y una comunidad bastante activa. Kaggle es un gran espacio para practicar y aprender sobre análisis de datos y modelamiento predictivo.
 - La competencia recomendada para empezar es [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic). Trabajaremos sobre este dataset para tener una mayor comprensión sobre parte de la secuencia de tareas realizadas en Data Science.
-- El dataset puede ser descargado con mayor comodidad en nuestra instancia a través del [API oficial de Kaggle](https://github.com/Kaggle/kaggle-api): `kaggle competitions download -c titanic -w`
+- El dataset puede ser descargado con mayor comodidad en nuestra instancia a través del [API oficial de Kaggle](https://github.com/Kaggle/kaggle-api): `kaggle competitions download -c titanic -w`.
+- Para poder usar el API de Kaggle tenemos que registrar nuestras credenciales en el archivo: `~/.kaggle/kaggle.json`.
+- Es bueno restringir el acceso a dicho archivo a solo el usuario actual: `chmod 600 ~/.kaggle/kaggle.json`.
