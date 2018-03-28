@@ -12,7 +12,7 @@
 ## Ejecutando Jupyter Lab en el puerto 8889
 
 - La imagen de DigitalOcean también incluye [Jupyter Lab](https://github.com/jupyterlab/jupyterlab), la "evolución" de Jupyter Notebook, la cual cuenta con un completo rediseño de interfaz, ofreciendo una experiencia mucho más cercana a un IDE. Actualmente se encuentra en beta, veamos cómo usarlo en nuestra instancia.
-- Habilitemos el puerto 8889 en el firewall `sudo ufw allow 8889`.
+- Habilitemos el puerto 8889 en el firewall: `sudo ufw allow 8889`.
 - Para levantar el servicio en background podemos utilizar `screen`, con el fin de mantener el proceso corriendo aún después de terminar nuestra sesión.
 - Una vez dentro de la sesión de screen, podemos utilizar el usuario _science_ creado por defecto para evitar ejecutar Jupyter Lab desde el usuario root: `su - science`.
 - Para configurar una contraseña en lugar de seguir utilizando un token de acceso inicialicemos un archivo de configuración con `jupyter notebook --generate-config`.
