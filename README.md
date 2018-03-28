@@ -7,7 +7,7 @@
 
 - Creemos un Droplet con una distribución como Ubuntu 16 LTS y seleccionemos la imagen "Machine Learning and AI".
 - En tareas de análisis de datos, usualmente la cantidad de memoria RAM es el principal cuello de botella y ahí es donde una instancia cloud puede facilitar mucho el trabajo.
-- Al conectarse a la instancia veremos que Jupyter Notebook ya se encuentra corriendo en el puerto 8888, así que basta ingresar a dicho puerto con el ip de la instancia en cualquier navegador acompañado del token de acceso y ya podemos empezar a usar Jupyter Notebook.
+- Al conectarse a la instancia veremos que Jupyter Notebook ya se encuentra corriendo en el puerto 8888, así que basta ingresar a dicho puerto con la IP de la instancia en cualquier navegador acompañado del token de acceso y ya podemos empezar a usar Jupyter Notebook.
 
 ## Ejecutando Jupyter Lab en el puerto 8889
 
@@ -18,4 +18,4 @@
 - Para configurar una contraseña en lugar de seguir utilizando un token de acceso inicialicemos un archivo de configuración con `jupyter notebook --generate-config`.
 - Una vez inicializado el archivo, podemos ejecutar `jupyter notebook password` para establecer la contraseña.
 - Finalmente, para levantar Jupyter Lab ejecutemos `jupyter lab --no-browser --port=8889 --ip=0.0.0.0`.
-- Listo! ahora solo basta entrar al puerto 8889 con la ip de nuestra instancia para acceder al entorno de Jupyter Lab.
+- Listo! ahora solo basta entrar al puerto 8889 con la IP de nuestra instancia para acceder al entorno de Jupyter Lab.
